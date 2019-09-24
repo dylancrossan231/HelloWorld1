@@ -14,3 +14,6 @@
 Route::get('Dylan', function () {
     return view('welcome');
 });
+Route::get('About', function () {
+    return "<h1>This is the about page<h1>";
+});

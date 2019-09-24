@@ -17,3 +17,8 @@ Route::get('Dylan', function () {
 Route::get('About', function () {
     return "<h1>This is the about page<h1>";
 });
+Route::get('hello', function () {
+    return "<h1>This is the about page<h1>";
+});
+
+Route::get('hello', 'HelloController@show');
